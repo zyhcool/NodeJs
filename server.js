@@ -20,6 +20,7 @@ http.createServer((request, response) => {
         console.log(userdata);
         response.end();
     })
+    throw new Error();
 
 
 }).listen("9090");

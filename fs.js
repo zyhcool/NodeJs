@@ -9,3 +9,7 @@ fs.mkdir("./haha.js", (err) => {
         console.log(err)
     }
 });
+
+fs.stat("server.js",(err)=>{
+    console.log(err);
+})
